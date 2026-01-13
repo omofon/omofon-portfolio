@@ -9,6 +9,13 @@ import {
 import developerImg from "../assets/omofon-potrait.jpeg";
 
 export function Hero() {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen pt-16 overflow-hidden">
       {/* Topographic Background Pattern */}
@@ -66,7 +73,10 @@ export function Hero() {
               </p>
             </div>
 
-            <button className="bg-primary-button hover:bg-primary-button/90 text-white px-8 py-3 rounded-full transition-colors cursor-pointer">
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="bg-primary-button hover:bg-primary-button/90 text-white px-8 py-3 rounded-full transition-colors cursor-pointer"
+            >
               HIRE ME
             </button>
           </div>
@@ -136,9 +146,12 @@ export function Hero() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block">
+        <button
+          onClick={() => scrollToSection("services")}
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors cursor-pointer"
+        >
           <ChevronDown className="h-8 w-8" />
-        </div>
+        </button>
       </div>
     </section>
   );
