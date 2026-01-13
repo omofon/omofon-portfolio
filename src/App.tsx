@@ -14,10 +14,10 @@ export default function App() {
       <Navigation />
       <main>
         <Hero />
-        <Experience />
         <Services />
         <Projects />
         <Skills />
+        <Experience />
         <Contact />
       </main>
       <Footer />
