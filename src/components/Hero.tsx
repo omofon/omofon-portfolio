@@ -1,4 +1,11 @@
-import { Github, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import {
+  Github,
+  Twitter,
+  Linkedin,
+  Instagram,
+  Mail,
+  ChevronDown,
+} from "lucide-react";
 import developerImg from "../assets/omofon-potrait.jpeg";
 
 export function Hero() {
@@ -40,7 +47,9 @@ export function Hero() {
         </svg>
       </div>
 
+      {/* Hero */}
       <div className="relative max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 py-16 md:py-24">
+        {/* Hero Content with Image */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6 z-10">
@@ -57,58 +66,9 @@ export function Hero() {
               </p>
             </div>
 
-            <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-full transition-colors">
+            <button className="bg-primary-button hover:bg-primary-button/90 text-white px-8 py-3 rounded-full transition-colors cursor-pointer">
               HIRE ME
             </button>
-
-            {/* Social Links */}
-            <div className="flex space-x-4 pt-8">
-              <a
-                href="https://github.com/omofon"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                aria-label="GitHub"
-              >
-                <Github className="w-5 h-5" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com/omofzzz"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://linkedin.com/in/omofon"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="mailto:omofon.u@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                aria-label="Mail"
-              >
-                <Mail className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Right Image */}
@@ -124,19 +84,60 @@ export function Hero() {
             </div>
           </div>
         </div>
-
-        {/* Email at bottom right */}
-        <div className="absolute bottom-8 right-8 hidden lg:block">
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            hkottil03@gmail.com
-          </p>
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Social Links */}
+          <div className="flex space-x-4 pt-8">
+            <a
+              href="https://github.com/omofon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              aria-label="GitHub"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a
+              href="https://twitter.com/omofzzz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-5 h-5" />
+            </a>
+            <a
+              href="https://linkedin.com/in/omofon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href="mailto:omofon.u@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              aria-label="Mail"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
+          </div>
         </div>
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block">
-          <div className="w-6 h-10 border-2 border-gray-300 dark:border-gray-700 rounded-full flex items-start justify-center p-2">
-            <div className="w-1 h-2 bg-gray-400 dark:bg-gray-600 rounded-full animate-bounce"></div>
-          </div>
+          <ChevronDown className="h-8 w-8" />
         </div>
       </div>
     </section>

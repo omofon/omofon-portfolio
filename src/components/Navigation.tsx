@@ -35,7 +35,7 @@ export function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('home')}
-              className={`text-sm transition-colors ${
+              className={`text-sm transition-colors cursor-pointer ${
                 activeSection === 'home'
                   ? 'text-foreground'
                   : 'text-gray-600 dark:text-gray-400 hover:text-foreground'
@@ -109,7 +109,7 @@ export function Navigation() {
               )}
             </button>
             <a
-              href="https://github.com"
+              href="https://github.com/omofon"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
