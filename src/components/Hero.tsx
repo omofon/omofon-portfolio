@@ -1,5 +1,5 @@
-import { Github, Twitter, Linkedin, Instagram, Youtube } from 'lucide-react';
-import developerImg from 'figma:asset/4995bfc46d525fdedcb998f0f52f6cbc9c90d9b9.png';
+import { Github, Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import developerImg from "../assets/omofon-potrait.jpeg";
 
 export function Hero() {
   return (
@@ -8,7 +8,14 @@ export function Hero() {
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <pattern id="topographic" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+            <pattern
+              id="topographic"
+              x="0"
+              y="0"
+              width="200"
+              height="200"
+              patternUnits="userSpaceOnUse"
+            >
               <path
                 d="M20 20c10 0 20 10 20 20s-10 20-20 20-20-10-20-20 10-20 20-20zm40 0c10 0 20 10 20 20s-10 20-20 20-20-10-20-20 10-20 20-20zm40 0c10 0 20 10 20 20s-10 20-20 20-20-10-20-20 10-20 20-20z"
                 fill="none"
@@ -33,7 +40,7 @@ export function Hero() {
         </svg>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div className="relative max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 py-16 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6 z-10">
@@ -42,13 +49,14 @@ export function Hero() {
                 Hi, I am
               </p>
               <h1 className="text-3xl md:text-5xl font-bold text-foreground">
-                Omofon Udoh.
+                Omofon.
               </h1>
               <p className="text-xl md:text-3xl text-foreground">
-                I build web<br />& Mobile apps
+                I build web
+                <br />& Mobile apps
               </p>
             </div>
-            
+
             <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-full transition-colors">
               HIRE ME
             </button>
@@ -56,7 +64,7 @@ export function Hero() {
             {/* Social Links */}
             <div className="flex space-x-4 pt-8">
               <a
-                href="https://github.com"
+                href="https://github.com/omofon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
@@ -74,7 +82,7 @@ export function Hero() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/omofzzz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
@@ -83,7 +91,7 @@ export function Hero() {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/omofon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
@@ -92,13 +100,13 @@ export function Hero() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://youtube.com"
+                href="mailto:omofon.u@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                aria-label="YouTube"
+                aria-label="Mail"
               >
-                <Youtube className="w-5 h-5" />
+                <Mail className="w-5 h-5" />
               </a>
             </div>
           </div>

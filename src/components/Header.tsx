@@ -27,7 +27,7 @@ export function Header() {
           onClick={() => scrollToSection('#home')}
           className="text-xl"
         >
-          Alex Chen
+          Omofon
         </button>
         
         {/* Desktop Navigation */}

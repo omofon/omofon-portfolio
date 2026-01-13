@@ -28,7 +28,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-lg font-semibold">HcR</span>
+            <span className="text-lg font-semibold">Omofon</span>
           </div>
 
           {/* Navigation Links */}
