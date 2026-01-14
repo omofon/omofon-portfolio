@@ -1,4 +1,12 @@
-import { useState } from "react";
+import { useState, type FormEvent, type ChangeEvent } from "react";
+import { createClient } from "@supabase/supabase-js";
+import { projectId, publicAnonKey } from "../utils/supabase/info";
+
+// Create Supabase client
+const supabase = createClient(
+  `https://${projectId}.supabase.co`,
+  publicAnonKey
+);
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -6,15 +14,52 @@ export function Contact() {
     email: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission
-    console.log("Form submitted:", formData);
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
+    setErrorMessage("");
+
+    try {
+      // Insert directly into the contact-form table
+      const { data, error } = await supabase.from("contact-form").insert([
+        {
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        },
+      ]);
+
+      if (error) {
+        throw error;
+      }
+
+      setSubmitStatus("success");
+      setFormData({ name: "", email: "", message: "" });
+
+      // Reset success message after 5 seconds
+      setTimeout(() => {
+        setSubmitStatus("idle");
+      }, 5000);
+    } catch (error) {
+      console.error("Error submitting contact form:", error);
+      setSubmitStatus("error");
+      setErrorMessage(
+        error instanceof Error ? error.message : "Failed to submit form"
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({
       ...formData,
@@ -23,11 +68,8 @@ export function Contact() {
   };
 
   return (
-    <section
-      id="contact"
-      className="py-16 md:py-24 bg-gray-50 dark:bg-gray-800"
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-16 md:py-24 bg-white dark:bg-gray-900">
+      <div className="max-w-7xl mx-auto px-8 sm:px-12 lg:px-16">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">Contact</h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -95,11 +137,22 @@ export function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-primary hover:bg-primary/90 text-white py-3 rounded-lg transition-colors"
+                className="w-full bg-primary hover:bg-primary/90 text-white dark:text-white py-3 rounded-lg transition-colors"
+                disabled={isSubmitting}
               >
-                Submit
+                {isSubmitting ? "Submitting..." : "Submit"}
               </button>
             </form>
+
+            {submitStatus === "success" && (
+              <p className="text-green-500 mt-4">
+                Form submitted successfully!
+              </p>
+            )}
+
+            {submitStatus === "error" && (
+              <p className="text-red-500 mt-4">{errorMessage}</p>
+            )}
           </div>
         </div>
       </div>

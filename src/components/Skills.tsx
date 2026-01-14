@@ -4,11 +4,11 @@ export function Skills() {
       name: "HTML5",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
@@ -26,11 +26,11 @@ export function Skills() {
       name: "CSS3",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
@@ -48,41 +48,41 @@ export function Skills() {
       name: "Figma",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z"
               fill="#1ABCFE"
             ></path>{" "}
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z"
               fill="#0ACF83"
             ></path>{" "}
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z"
               fill="#FF7262"
             ></path>{" "}
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z"
               fill="#F24E1E"
             ></path>{" "}
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z"
               fill="#A259FF"
             ></path>{" "}
@@ -94,11 +94,11 @@ export function Skills() {
       name: "React",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
@@ -107,8 +107,8 @@ export function Skills() {
               fill="#53C1DE"
             ></path>{" "}
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M24.7004 11.1537C25.2661 8.92478 25.9772 4.79148 23.4704 3.39016C20.9753 1.99495 17.7284 4.66843 16.0139 6.27318C14.3044 4.68442 10.9663 2.02237 8.46163 3.42814C5.96751 4.82803 6.73664 8.8928 7.3149 11.1357C4.98831 11.7764 1 13.1564 1 15.9759C1 18.7874 4.98416 20.2888 7.29698 20.9289C6.71658 23.1842 5.98596 27.1909 8.48327 28.5877C10.9973 29.9932 14.325 27.3945 16.0554 25.7722C17.7809 27.3864 20.9966 30.0021 23.4922 28.6014C25.9956 27.1963 25.3436 23.1184 24.7653 20.8625C27.0073 20.221 31 18.7523 31 15.9759C31 13.1835 26.9903 11.7923 24.7004 11.1537ZM24.4162 19.667C24.0365 18.5016 23.524 17.2623 22.8971 15.9821C23.4955 14.7321 23.9881 13.5088 24.3572 12.3509C26.0359 12.8228 29.7185 13.9013 29.7185 15.9759C29.7185 18.07 26.1846 19.1587 24.4162 19.667ZM22.85 27.526C20.988 28.571 18.2221 26.0696 16.9478 24.8809C17.7932 23.9844 18.638 22.9422 19.4625 21.7849C20.9129 21.6602 22.283 21.4562 23.5256 21.1777C23.9326 22.7734 24.7202 26.4763 22.85 27.526ZM9.12362 27.5111C7.26143 26.47 8.11258 22.8946 8.53957 21.2333C9.76834 21.4969 11.1286 21.6865 12.5824 21.8008C13.4123 22.9332 14.2816 23.9741 15.1576 24.8857C14.0753 25.9008 10.9945 28.557 9.12362 27.5111ZM2.28149 15.9759C2.28149 13.874 5.94207 12.8033 7.65904 12.3326C8.03451 13.5165 8.52695 14.7544 9.12123 16.0062C8.51925 17.2766 8.01977 18.5341 7.64085 19.732C6.00369 19.2776 2.28149 18.0791 2.28149 15.9759ZM9.1037 4.50354C10.9735 3.45416 13.8747 6.00983 15.1159 7.16013C14.2444 8.06754 13.3831 9.1006 12.5603 10.2265C11.1494 10.3533 9.79875 10.5569 8.55709 10.8297C8.09125 9.02071 7.23592 5.55179 9.1037 4.50354ZM20.3793 11.5771C21.3365 11.6942 22.2536 11.85 23.1147 12.0406C22.8562 12.844 22.534 13.6841 22.1545 14.5453C21.6044 13.5333 21.0139 12.5416 20.3793 11.5771ZM16.0143 8.0481C16.6054 8.66897 17.1974 9.3623 17.7798 10.1145C16.5985 10.0603 15.4153 10.0601 14.234 10.1137C14.8169 9.36848 15.414 8.67618 16.0143 8.0481ZM9.8565 14.5444C9.48329 13.6862 9.16398 12.8424 8.90322 12.0275C9.75918 11.8418 10.672 11.69 11.623 11.5748C10.9866 12.5372 10.3971 13.5285 9.8565 14.5444ZM11.6503 20.4657C10.6679 20.3594 9.74126 20.2153 8.88556 20.0347C9.15044 19.2055 9.47678 18.3435 9.85796 17.4668C10.406 18.4933 11.0045 19.4942 11.6503 20.4657ZM16.0498 23.9915C15.4424 23.356 14.8365 22.6531 14.2448 21.8971C15.4328 21.9423 16.6231 21.9424 17.811 21.891C17.2268 22.6608 16.6369 23.3647 16.0498 23.9915ZM22.1667 17.4222C22.5677 18.3084 22.9057 19.1657 23.1742 19.9809C22.3043 20.1734 21.3652 20.3284 20.3757 20.4435C21.015 19.4607 21.6149 18.4536 22.1667 17.4222ZM18.7473 20.5941C16.9301 20.72 15.1016 20.7186 13.2838 20.6044C12.2509 19.1415 11.3314 17.603 10.5377 16.0058C11.3276 14.4119 12.2404 12.8764 13.2684 11.4158C15.0875 11.2825 16.9178 11.2821 18.7369 11.4166C19.7561 12.8771 20.6675 14.4086 21.4757 15.9881C20.6771 17.5812 19.7595 19.1198 18.7473 20.5941ZM22.8303 4.4666C24.7006 5.51254 23.8681 9.22726 23.4595 10.8426C22.2149 10.5641 20.8633 10.3569 19.4483 10.2281C18.6239 9.09004 17.7698 8.05518 16.9124 7.15949C18.1695 5.98441 20.9781 3.43089 22.8303 4.4666Z"
               fill="#53C1DE"
             ></path>{" "}
@@ -127,11 +127,11 @@ export function Skills() {
           preserveAspectRatio="xMidYMid"
           fill="#000000"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
@@ -145,10 +145,10 @@ export function Skills() {
                 id="linearGradient-1"
               >
                 {" "}
-                <stop stop-color="#2298BD" offset="0%">
+                <stop stopColor="#2298BD" offset="0%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#0ED7B5" offset="100%">
+                <stop stopColor="#0ED7B5" offset="100%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -175,11 +175,11 @@ export function Skills() {
           preserveAspectRatio="xMinYMin meet"
           fill="#000000"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             <path
@@ -200,11 +200,11 @@ export function Skills() {
           // xmlns:xlink="http://www.w3.org/1999/xlink"
           fill="#000000"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
@@ -213,9 +213,9 @@ export function Skills() {
             <g
               id="Icons"
               stroke="none"
-              stroke-width="1"
+              strokeWidth="1"
               fill="none"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             >
               {" "}
               <g
@@ -247,11 +247,11 @@ export function Skills() {
           preserveAspectRatio="xMidYMid"
           fill="#000000"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
@@ -265,19 +265,19 @@ export function Skills() {
                 id="linearGradient-1"
               >
                 {" "}
-                <stop stop-color="#41873F" offset="0%">
+                <stop stopColor="#41873F" offset="0%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#418B3D" offset="32.88%">
+                <stop stopColor="#418B3D" offset="32.88%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#419637" offset="63.52%">
+                <stop stopColor="#419637" offset="63.52%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#3FA92D" offset="93.19%">
+                <stop stopColor="#3FA92D" offset="93.19%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#3FAE2A" offset="100%">
+                <stop stopColor="#3FAE2A" offset="100%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -295,16 +295,16 @@ export function Skills() {
                 id="linearGradient-4"
               >
                 {" "}
-                <stop stop-color="#41873F" offset="13.76%">
+                <stop stopColor="#41873F" offset="13.76%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#54A044" offset="40.32%">
+                <stop stopColor="#54A044" offset="40.32%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#66B848" offset="71.36%">
+                <stop stopColor="#66B848" offset="71.36%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#6CC04A" offset="90.81%">
+                <stop stopColor="#6CC04A" offset="90.81%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -316,16 +316,16 @@ export function Skills() {
                 id="linearGradient-5"
               >
                 {" "}
-                <stop stop-color="#6CC04A" offset="9.191646%">
+                <stop stopColor="#6CC04A" offset="9.191646%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#66B848" offset="28.64%">
+                <stop stopColor="#66B848" offset="28.64%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#54A044" offset="59.68%">
+                <stop stopColor="#54A044" offset="59.68%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#41873F" offset="86.24%">
+                <stop stopColor="#41873F" offset="86.24%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -337,16 +337,16 @@ export function Skills() {
                 id="linearGradient-6"
               >
                 {" "}
-                <stop stop-color="#6CC04A" offset="9.191646%">
+                <stop stopColor="#6CC04A" offset="9.191646%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#66B848" offset="28.64%">
+                <stop stopColor="#66B848" offset="28.64%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#54A044" offset="59.68%">
+                <stop stopColor="#54A044" offset="59.68%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#41873F" offset="86.24%">
+                <stop stopColor="#41873F" offset="86.24%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -358,16 +358,16 @@ export function Skills() {
                 id="linearGradient-7"
               >
                 {" "}
-                <stop stop-color="#6CC04A" offset="9.191646%">
+                <stop stopColor="#6CC04A" offset="9.191646%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#66B848" offset="28.64%">
+                <stop stopColor="#66B848" offset="28.64%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#54A044" offset="59.68%">
+                <stop stopColor="#54A044" offset="59.68%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#41873F" offset="86.24%">
+                <stop stopColor="#41873F" offset="86.24%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -379,16 +379,16 @@ export function Skills() {
                 id="linearGradient-8"
               >
                 {" "}
-                <stop stop-color="#6CC04A" offset="9.191646%">
+                <stop stopColor="#6CC04A" offset="9.191646%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#66B848" offset="28.64%">
+                <stop stopColor="#66B848" offset="28.64%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#54A044" offset="59.68%">
+                <stop stopColor="#54A044" offset="59.68%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#41873F" offset="86.24%">
+                <stop stopColor="#41873F" offset="86.24%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -400,19 +400,19 @@ export function Skills() {
                 id="linearGradient-9"
               >
                 {" "}
-                <stop stop-color="#41873F" offset="0%">
+                <stop stopColor="#41873F" offset="0%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#418B3D" offset="32.88%">
+                <stop stopColor="#418B3D" offset="32.88%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#419637" offset="63.52%">
+                <stop stopColor="#419637" offset="63.52%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#3FA92D" offset="93.19%">
+                <stop stopColor="#3FA92D" offset="93.19%">
                   {" "}
                 </stop>{" "}
-                <stop stop-color="#3FAE2A" offset="100%">
+                <stop stopColor="#3FAE2A" offset="100%">
                   {" "}
                 </stop>{" "}
               </linearGradient>{" "}
@@ -494,7 +494,7 @@ export function Skills() {
                     </path>{" "}
                     <path
                       fill="url(#linearGradient-5)"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M50.3909707,0.809029345 L49.6975169,1.15575621 L50.6221219,1.15575621 L50.3909707,0.809029345 Z"
                     >
                       {" "}
@@ -502,13 +502,13 @@ export function Skills() {
                     <path
                       d="M106.791874,105.636117 C108.178781,104.827088 109.218962,103.440181 109.681264,101.937698 L56.0541761,10.4018059 C54.6672686,10.1706546 53.1647856,10.2862302 51.8934537,11.0952596 L3.351693,39.0645598 L55.7074492,134.530023 C56.4009029,134.414447 57.2099323,134.183296 57.903386,133.836569 L106.791874,105.636117 L106.791874,105.636117 Z"
                       fill="url(#linearGradient-6)"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       {" "}
                     </path>{" "}
                     <path
                       fill="url(#linearGradient-7)"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M111.299323,104.711512 L110.952596,104.133634 L110.952596,104.942664 L111.299323,104.711512 Z"
                     >
                       {" "}
@@ -516,14 +516,14 @@ export function Skills() {
                     <path
                       d="M106.791874,105.636117 L58.0189616,133.720993 C57.3255079,134.06772 56.6320542,134.298871 55.8230248,134.414447 L56.7476298,136.148081 L110.83702,104.827088 L110.83702,104.133634 L109.450113,101.822122 C109.218962,103.440181 108.178781,104.827088 106.791874,105.636117 L106.791874,105.636117 Z"
                       fill="url(#linearGradient-8)"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       {" "}
                     </path>{" "}
                     <path
                       d="M106.791874,105.636117 L58.0189616,133.720993 C57.3255079,134.06772 56.6320542,134.298871 55.8230248,134.414447 L56.7476298,136.148081 L110.83702,104.827088 L110.83702,104.133634 L109.450113,101.822122 C109.218962,103.440181 108.178781,104.827088 106.791874,105.636117 L106.791874,105.636117 Z"
                       fill="url(#linearGradient-9)"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                     >
                       {" "}
                     </path>{" "}
@@ -539,22 +539,22 @@ export function Skills() {
       name: "Django",
       icon: (
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M10.633 32.181c-.009 1.587 1.154 2.533 3.01 2.103v-4.205c-1.879-.572-3.003.586-3.01 2.102zM13.7 24h2.556v12.102c-2.45.4-4.798.655-6.477-.284-2.162-1.21-2.336-5.05-.625-6.761.868-.868 2.614-1.478 4.489-1.08v-3.806c-.005-.081-.01-.162.056-.171zM20.405 26.67h-2.557V24h2.557v2.67zM51.085 34.397c2.787 1.083 3.096-4.989.284-4.431-1.746.346-1.69 3.885-.284 4.431zm.114-6.534c2.128-.227 3.734.712 4.375 2.16 1.093 2.469-.06 5.302-1.819 6.135-.91.432-1.865.473-2.727.398-2.664-.232-4.344-2.947-3.409-5.965.147-.473.311-.762.398-.91.58-.984 1.557-1.644 3.182-1.818zM23.927 33.431c-.707 1.189 1.07 1.474 2.216 1.137v-1.761c-.88.122-1.883.065-2.216.624zm4.489 2.784c-2.112.122-5.322.841-6.477-.568-.679-.828-.606-2.407 0-3.181.783-1.001 2.492-1.22 4.034-1.364.14-.345.045-.906-.114-1.136-1.41-.36-2.812.197-3.807.625v-1.989c1.503-.69 4.982-1.417 6.023.17.547.834.34 2.288.34 3.58v3.863zM37.393 36.33h-2.557v-3.296c0-1.085.175-2.461-.398-2.898-.449-.342-1.514-.17-2.159 0v6.193h-2.557v-7.897c2.614-.68 7.332-1.407 7.67 1.875.168 1.618-.123 4.045 0 6.022zM41.2 33.602c.43.696 1.594.957 2.556.511a81.771 81.771 0 0 1-.057-4.09c-2.21-.584-3.526 1.918-2.5 3.579zm6.42-5.398c-.228.682-.561 1.258-.853 1.875-.263.06-.492-.104-.625 0-.058 2.77.59 6.524-.511 8.523-.663 1.203-1.884 1.975-3.75 2.102a7.634 7.634 0 0 1-3.409-.511v-2.387c1.166.681 4.113 1.236 4.943-.17.244-.414.229-.842.34-1.477-.533.028-1.052.275-1.704.284-2.679.035-4.337-2.098-3.693-5.057.25-1.144.92-2.066 1.819-2.613 1.865-1.138 4.734-1.051 7.442-.569z"
               fill="#000000"
             ></path>
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M20.405 28.023c-.003 1.882-.003 3.235-.003 5.522-.108 2.248-.083 4.038-.906 5.113-.163.212-.507.522-.796.739-.242.182-.703.552-.965.568-.265.016-.943-.367-1.25-.511-.404-.19-.777-.442-1.194-.568.973-.603 1.896-1.055 2.273-2.273.328-1.06.284-2.595.284-4.09 0-1.478.007-3.196.007-4.5h2.55z"
               fill="#000000"
             ></path>
@@ -570,11 +570,11 @@ export function Skills() {
           xmlns="http://www.w3.org/2000/svg"
           fill="#000000"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             <path
@@ -616,11 +616,11 @@ export function Skills() {
       name: "Redux",
       icon: (
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             {" "}
